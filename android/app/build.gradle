@@ -81,6 +81,7 @@ android {
     defaultConfig {
         applicationId "com.onroll_mobile_app"
         minSdkVersion rootProject.ext.minSdkVersion
+        missingDimensionStrategy 'react-native-camera', 'general'
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
         versionName "1.0"
@@ -110,6 +111,15 @@ android {
 dependencies {
     // The version of react-native is set by the React Native Gradle Plugin
     implementation("com.facebook.react:react-android")
+    implementation 'com.google.mlkit:barcode-scanning:17.0.2'
+
+
+    // Explicitly include react-native-camera and exclude MLKit variant
+    implementation(project(':react-native-camera')) {
+        capabilities {
+            requireCapability("onroll_mobile_app:react-native-camera:general")
+        }
+    }
 
     if (hermesEnabled.toBoolean()) {
         implementation("com.facebook.react:hermes-android")
