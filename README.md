@@ -165,13 +165,14 @@ Navigation:
 Smooth, stack-based navigation across different screens like Home, Profile, and Payment using React Navigation.
 
 # Screenshots
-Sig-in:
+
+# Sig-in:
 ![1](https://github.com/user-attachments/assets/6681444f-353e-4b16-8579-5237a1348567)
 
-Otp page:
+# Otp page:
 ![2](https://github.com/user-attachments/assets/ddbc7526-733f-440b-8bb6-81baa0928517)
 
-Gpay Main Page:
+# Gpay Main Page:
 ![3](https://github.com/user-attachments/assets/e22406dc-290a-4271-82d9-f57922d094e2)
 ![4](https://github.com/user-attachments/assets/6633880e-b870-4ae5-ae59-80e545721d3c)
 ![5](https://github.com/user-attachments/assets/5676201b-b1fe-49db-9f20-1ebc6c20493f)
