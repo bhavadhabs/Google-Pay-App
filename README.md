@@ -22,8 +22,7 @@ This is a Google Pay Clone built using React Native. The app provides a similar 
 User Authentication:
 Login/Sign-up and OTP request page
 GPay Page:
-Created Searched bar with profile id, QR Code scanner, Pay contacts, Pay number, Bank Transfer, UPI ID, Self Transfer, Pay Bills, Mobile Recharge, People Section, Business Section ( RedBus, Fibre Loans,
-Makemytip, Google PlayStore), Bill Section( Mobile recharge, Electricity, Dth/Cable, Credit Cards), Offers & Rewards Section( Offers, Rewards, Referrals), Invite Section, Manage Money Section ( CIBIL Score, Transaction History, Check bank balance)
+Created Searched bar with profile id, QR Code scanner, Pay contacts, Pay number, Bank Transfer, UPI ID, Self Transfer, Pay Bills, Mobile Recharge, People Section, Business Section ( RedBus, Fibre Loans, Makemytip, Google PlayStore), Bill Section( Mobile recharge, Electricity, Dth/Cable, Credit Cards), Offers & Rewards Section( Offers, Rewards, Referrals), Invite Section, Manage Money Section ( CIBIL Score, Transaction History, Check bank balance)
 TypeScript:
 For improved code quality and maintainability.
 Modals:
