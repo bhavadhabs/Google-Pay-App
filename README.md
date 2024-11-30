@@ -61,53 +61,53 @@ React ScrollView:
 For smooth horizontal and vertical scrolling across the page, use the ScrollView component to enable seamless scrolling in both directions.
 
 # App Structure
-├── login/                  # Contains all screens and components related to user login and otp authentication
+├── login/                                 # Contains all screens and components related to user login and otp authentication
 
-├── ScanQrcode/             # QR Code scanning functionality for payments and transfers
+├── ScanQrcode/                            # QR Code scanning functionality for payments and transfers
 
-├── PayContacts/            # Allows users to pay contacts from their phonebook or selected contacts
+├── PayContacts/                           # Allows users to pay contacts from their phonebook or selected contacts
 
-├── PayNumber/              # Allows users to make payments using phone numbers
+├── PayNumber/                             # Allows users to make payments using phone numbers
 
-├── BankTransfer/           # Section for transferring funds between bank accounts
+├── BankTransfer/                          # Section for transferring funds between bank accounts
 
-├── UPIID/                  # Section for managing UPI ID and UPI-based transactions
+├── UPIID/                                 # Section for managing UPI ID and UPI-based transactions
 
-├── SelfTransfer/           # Self transfer section for transferring money between the user's own accounts
+├── SelfTransfer/                          # Self transfer section for transferring money between the user's own accounts
 
-├── PayBills/               # Section for paying various utility bills
+├── PayBills/                              # Section for paying various utility bills
 
-├── MobileRecharge/         # Mobile recharge section for recharging prepaid phones
+├── MobileRecharge/                        # Mobile recharge section for recharging prepaid phones
 
-├── RedBus/                 # Integration with RedBus for bus bookings
+├── RedBus/                                # Integration with RedBus for bus bookings
 
-├── FibreLoans/             # Integration with Fibre Loans for loan-related transactions
+├── FibreLoans/                            # Integration with Fibre Loans for loan-related transactions
 
-├── Makemytrip/             # Integration with Makemytrip for booking travel and accommodations
+├── Makemytrip/                            # Integration with Makemytrip for booking travel and accommodations
 
-├── GooglePlayStore/        # Section for browsing and managing Google Play Store transactions
+├── GooglePlayStore/                       # Section for browsing and managing Google Play Store transactions
 
-├── Electricity/            # Subsection under PayBills for paying electricity bills
+├── Electricity/                           # Subsection under PayBills for paying electricity bills
 
-├── DthCable/               # Subsection under PayBills for paying DTH or cable bills
+├── DthCable/                              # Subsection under PayBills for paying DTH or cable bills
 
-├── CreditCards/            # Section for managing and paying credit card bills
+├── CreditCards/                           # Section for managing and paying credit card bills
 
-├── types/                  # TypeScript type definitions and interfaces
+├── types/                                 # TypeScript type definitions and interfaces
 
-├── User.ts                 # User-related types and interfaces
+├── User.ts                                # User-related types and interfaces
 
-├── Payment.ts              # Types for payments, transfers, and related data
+├── Payment.ts                             # Types for payments, transfers, and related data
 
-├── Bill.ts                 # Types for bills and payments
+├── Bill.ts                                # Types for bills and payments
 
-├── Transaction.ts          # Types for transaction history, status, etc.
+├── Transaction.ts                         # Types for transaction history, status, etc.
 
-├── App.tsx                 # Entry point of the app, initializing React Native components and navigation
+├── App.tsx                                # Entry point of the app, initializing React Native components and navigation
 
-├── tsconfig.json           # TypeScript configuration for compiling TypeScript code
+├── tsconfig.json                          # TypeScript configuration for compiling TypeScript code
 
-├── package.json            # Project dependencies and scripts for building, running, and managing the app
+├── package.json                           # Project dependencies and scripts for building, running, and managing the app
 
 # Frameworks used:
 React Native:
