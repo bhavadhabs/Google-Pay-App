@@ -95,19 +95,19 @@ For smooth horizontal and vertical scrolling across the page, use the ScrollView
 
 ├── types/                  # TypeScript type definitions and interfaces
 
-│   ├── User.ts             # User-related types and interfaces
+├── User.ts             # User-related types and interfaces
 
-│   ├── Payment.ts          # Types for payments, transfers, and related data
+│── Payment.ts          # Types for payments, transfers, and related data
 
-│   ├── Bill.ts             # Types for bills and payments
+├── Bill.ts             # Types for bills and payments
 
-│   └── Transaction.ts      # Types for transaction history, status, etc.
+│── Transaction.ts      # Types for transaction history, status, etc.
 
 ├── App.tsx                 # Entry point of the app, initializing React Native components and navigation
 
 ├── tsconfig.json           # TypeScript configuration for compiling TypeScript code
 
-└── package.json            # Project dependencies and scripts for building, running, and managing the app
+├── package.json            # Project dependencies and scripts for building, running, and managing the app
 
 # Frameworks used:
 React Native:
